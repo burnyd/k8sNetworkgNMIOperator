@@ -14,7 +14,7 @@ This is obviously not production ready and more or less an ongoing project.  At 
 
 # Motivation
 
-The motivation behind this is mainly due to learning about crossplane many weeks ago but now getting around to this during my christmas break of working on this project.  I am a firm believer in using K8s not just as a way to deploy services and schedule pods but to also use the k8s api as a means of keeping the correct state.  I feel like kubernetes should be and needs to be used as not just for pods but for external resources as well.
+The motivation behind this is mainly due to learning about [crossplane](https://crossplane.io/) many weeks ago but now getting around to this during my christmas break of working on this project.  I am a firm believer in using K8s not just as a way to deploy services and schedule pods but to also use the k8s api as a means of keeping the correct state.  I feel like kubernetes should be and needs to be used as not just for pods but for external resources as well.
 
 # Tooling
 
