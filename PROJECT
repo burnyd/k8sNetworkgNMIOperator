@@ -1,0 +1,19 @@
+domain: ocoperator.com
+layout:
+- go.kubebuilder.io/v3
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: ocoperator
+repo: github.com/burnyd/k8sNetworkgNMIOperator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: ocoperator.com
+  group: oc
+  kind: Ocswitches
+  path: github.com/burnyd/k8sNetworkgNMIOperator/api/v1
+  version: v1
+version: "3"

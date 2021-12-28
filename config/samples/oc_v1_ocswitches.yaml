@@ -1,0 +1,7 @@
+apiVersion: oc.ocoperator.com/v1
+kind: Ocswitches
+metadata:
+  name: ocswitches-sample
+spec:
+  # Add fields here
+

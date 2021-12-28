@@ -1,0 +1,24 @@
+# permissions for end users to edit ocswitches.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: ocswitches-editor-role
+rules:
+- apiGroups:
+  - oc.ocoperator.com
+  resources:
+  - ocswitches
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - oc.ocoperator.com
+  resources:
+  - ocswitches/status
+  verbs:
+  - get

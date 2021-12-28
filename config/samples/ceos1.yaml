@@ -1,0 +1,20 @@
+apiVersion: oc.ocoperator.com/v1
+kind: Ocswitches
+metadata:
+  name: ceos1
+spec:
+  username: admin
+  password: admin
+  host: 172.20.20.2
+  port: "6030"
+  bgpas: 6500
+  bgpreplace: true
+  bgpneighbors:
+    - neighbor: 1.1.1.1
+      remoteas: 1
+    - neighbor: 2.2.2.2
+      remoteas: 2
+    - neighbor: 3.3.3.3
+      remoteas: 3
+    - neighbor: 4.4.4.4
+      remoteas: 4
